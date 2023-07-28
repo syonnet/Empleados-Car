@@ -1,0 +1,110 @@
+{
+    "ventas": [
+      {
+        "fecha": "2023-07-25",
+        "cliente": "Juan Pérez",
+        "auto": "Toyota Corolla",
+        "precio": 25000,
+        "vendedor": "María Gómez"
+      },
+      {
+        "fecha": "2023-07-24",
+        "cliente": "Ana Rodríguez",
+        "auto": "Honda Civic",
+        "precio": 23000,
+        "vendedor": "Pedro López"
+      },
+      {
+        "fecha": "2023-07-22",
+        "cliente": "Carlos Ramírez",
+        "auto": "Ford Focus",
+        "precio": 22000,
+        "vendedor": "Laura Martínez"
+      },
+      {
+        "fecha": "2023-07-20",
+        "cliente": "Sofía Fernández",
+        "auto": "Nissan Sentra",
+        "precio": 20000,
+        "vendedor": "Andrés González"
+      },
+      {
+        "fecha": "2023-07-19",
+        "cliente": "Miguel Sánchez",
+        "auto": "Chevrolet Cruze",
+        "precio": 21000,
+        "vendedor": "Elena Vargas"
+      },
+      {
+        "fecha": "2023-07-18",
+        "cliente": "Luis Morales",
+        "auto": "Volkswagen Golf",
+        "precio": 18000,
+        "vendedor": "Javier Herrera"
+      },
+      {
+        "fecha": "2023-07-17",
+        "cliente": "María López",
+        "auto": "Hyundai Elantra",
+        "precio": 19000,
+        "vendedor": "Gabriela Mendoza"
+      },
+      {
+        "fecha": "2023-07-15",
+        "cliente": "José González",
+        "auto": "Kia Forte",
+        "precio": 19500,
+        "vendedor": "Ricardo Gómez"
+      },
+      {
+        "fecha": "2023-07-12",
+        "cliente": "Laura Torres",
+        "auto": "Mazda 3",
+        "precio": 21500,
+        "vendedor": "Fernando Pérez"
+      },
+      {
+        "fecha": "2023-07-10",
+        "cliente": "Fernanda Rodríguez",
+        "auto": "Chevrolet Malibu",
+        "precio": 24000,
+        "vendedor": "Ana Jiménez"
+      },
+      {
+        "fecha": "2023-07-09",
+        "cliente": "Carlos Ramírez",
+        "auto": "Toyota Corolla",
+        "precio": 26000,
+        "vendedor": "Laura Martínez"
+      },
+      {
+        "fecha": "2023-07-08",
+        "cliente": "Ana Rodríguez",
+        "auto": "Honda Civic",
+        "precio": 22500,
+        "vendedor": "Pedro López"
+      },
+      {
+        "fecha": "2023-07-07",
+        "cliente": "Sara Gómez",
+        "auto": "Ford Mustang",
+        "precio": 35000,
+        "vendedor": "Gabriela Mendoza"
+      },
+      {
+        "fecha": "2023-07-05",
+        "cliente": "Juan Pérez",
+        "auto": "Chevrolet Camaro",
+        "precio": 32000,
+        "vendedor": "María Gómez"
+      },
+      {
+        "fecha": "2023-07-04",
+        "cliente": "Carlos Ramírez",
+        "auto": "Ford Escape",
+        "precio": 28000,
+        "vendedor": "Laura Martínez"
+      }
+    ]
+  }
+  
