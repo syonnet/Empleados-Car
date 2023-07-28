@@ -12,7 +12,7 @@ const MenuScreen = ({ navigation }) => {
     >
       <View style={styles.content}>
         <Image
-          source={{ uri: 'https://i.postimg.cc/zG4D7qR7/logo.png' }}
+          source={{ uri: 'https://i.postimg.cc/qB5kRrxp/logo.png' }}
           style={styles.logo}
         />
         <Text style={styles.title}>Mi Cuenta</Text>
