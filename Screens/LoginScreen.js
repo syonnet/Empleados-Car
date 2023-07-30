@@ -1,12 +1,5 @@
 import React, { useState } from "react";
-import {
-  StyleSheet,
-  View,
-  TextInput,
-  Button,
-  Text,
-  ImageBackground,
-} from "react-native";
+import { StyleSheet, View, TextInput, Button, Text, ImageBackground, Image } from "react-native";
 import { AntDesign } from "@expo/vector-icons";
 import { Ionicons } from "@expo/vector-icons";
 
@@ -15,24 +8,26 @@ const LoginScreen = ({ navigation }) => {
   const [password, setPassword] = useState("");
 
   const handleLogin = () => {
-    // Lógica de autenticación (a completar por el usuario)
-    navigation.navigate("Menu"); // Redirige a la pantalla de Menu en este ejemplo
+    navigation.navigate("Menu"); 
   };
 
   const handleRegistration = () => {
-    navigation.navigate("Registration"); // Redirige a la pantalla de Registro
+    navigation.navigate("Registration");
   };
 
   return (
     <View style={styles.container}>
       <ImageBackground
         style={styles.backgroundImage}
-        source={{ uri: "https://picsum.photos/800/1200" }} // Imagen de fondo de Lorem Picsum
+        source={{ uri: "https://i.postimg.cc/sx1DKxKn/fondo.png" }}
         borderRadius={5}
       >
         <View style={styles.logoContainer}>
-          <View style={styles.iconContainer}>
-            <Ionicons name="car" size={80} color="black" />
+          <View style={styles.logoWrapper}>
+            <Image
+              source={{ uri: "https://i.postimg.cc/qB5kRrxp/logo.png" }} 
+              style={styles.logo}
+            />
           </View>
           <Text style={styles.title}>Bienvenido a Icar Plus</Text>
         </View>
@@ -40,7 +35,7 @@ const LoginScreen = ({ navigation }) => {
           <AntDesign
             name="user"
             size={24}
-            color='red'
+            color="red"
             style={styles.inputIcon}
           />
           <TextInput
@@ -100,11 +95,21 @@ const styles = StyleSheet.create({
     alignItems: "center",
     marginBottom: 20,
   },
-  logo: {
-    width: 100, // Ajusta el tamaño del logo según tus preferencias
-    height: 100, // Ajusta el tamaño del logo según tus preferencias
-    resizeMode: "contain",
+  logoWrapper: {
+    width: 170,
+    height: 170,
+    borderRadius: 150, 
+    backgroundColor: "white", 
+    justifyContent: "center",
+    alignItems: "center",
     marginBottom: 10,
+  },
+  logo: {
+    width: 150, 
+    height: 150, 
+    resizeMode: "contain",
+    borderRadius: 150, 
+    
   },
   title: {
     fontSize: 25,
@@ -121,7 +126,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     paddingHorizontal: 10,
     backgroundColor: "rgba(255, 255, 255, 0.7)",
-    width: "80%", // Ajusta el ancho del contenedor de los campos de entrada
+    width: "80%",
   },
   inputIcon: {
     marginRight: 10,
