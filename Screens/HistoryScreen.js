@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
   },
   btnSection: {
     flexDirection: 'row',
-    justifyContent: 'space-between', // Alinear los elementos de manera horizontal
+    justifyContent: 'space-between',
     alignItems: 'center',
     paddingVertical: 10,
     paddingHorizontal: 16,
@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     padding: 8,
-    width: windowWidth / 3, // Ajustar al ancho necesario de la pantalla
+    width: windowWidth / 3, 
   },
   autoInfo: {
     flexDirection: 'row',

@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 24,
     borderRadius: 8,
     alignItems: 'center',
-    justifyContent: 'center', // Alinear el contenido horizontalmente
+    justifyContent: 'center', 
   },
   logoutButtonText: {
     color: '#fff',

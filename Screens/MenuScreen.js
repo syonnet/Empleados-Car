@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
     height: 100,
     resizeMode: 'contain',
     borderWidth: 2,
-    borderColor: '#333', // Color del borde del logo
+    borderColor: '#333', 
   },
   title: {
     fontSize: 25,
